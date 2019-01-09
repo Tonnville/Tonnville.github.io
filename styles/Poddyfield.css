@@ -1,6 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+img {
+     display: block;
+     max-width: 100%;
+     margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
 body{
-  margin:0;
-  max-width:600px;
+  width:100%;
   background: #11998e;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -8,16 +22,48 @@ body{
 }
 
 /* resize images */
-.container img {
-   display: block;
-   width: 200px;
-   margin: 0 auto;
-
+.poddyimage{
+  max-width: 250px;
+  height: 150px;
+  margin: 0 auto;
 }
-.Imgspining {
-   display: block;
-   width: 200px;
-   margin: 0 auto;
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  max-width:100%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  list-style-type: none;
+}
+
+a {
+ text-decoration: none;
+}
+
+.section {
+  position: relative;
+  max-width: 100%;
+  height: 250px;
+}
+
+.image{
+  max-width: 250px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.field {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.crops {
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
 
 /*@mediaquery{*/
