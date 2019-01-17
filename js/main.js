@@ -5,9 +5,8 @@ for (i=0; 1< btns.length; i++){
   btns[i].addEventListener("click", manageHeadClasses);
 }
 function manageHeadClasses(){
-  alert("testing 123")
+  //alert("testing 123")
 
-/*
   if(this.getAttribute("data-add")){
   head.classlist.add(this.getAttribute("data-add"));
   }
@@ -16,7 +15,7 @@ function manageHeadClasses(){
   if(this.getAttribute("data-remove")){
   head.classlist.remove(this.getAttribute("data-remove"));
   }
-  */
+
 
 }
 
